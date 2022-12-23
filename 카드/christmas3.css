@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(7, 94, 11);
+  font-family: 'Lora', serif;
+}
+
+.Christmas-txt {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.Christmas-txt a {
+  color: rgb(255, 232, 102);
+  font-size: 50px;
+  text-decoration: none;
+  overflow: hidden;
+  filter: drop-shadow(0 0 3px white);
+}
+
+.wrapper {
+text-align: center;
+}
+
+.tomato {
+  width: 12000;
+  height: 700px;
+  margin-top: -550px;
+}
+
+.toy {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 30px;
+}
+
+p {
+  color: #fff;
+  text-align: center;
+  margin-top: -100px;
+}
+

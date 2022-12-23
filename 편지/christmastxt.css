@@ -1,0 +1,54 @@
+* {
+  margin: 0, auto;
+  text-align: center;
+}
+
+
+body {
+  font-family: 'Lora', serif;
+  background-color: black;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: #fff;
+  margin-top: 50px;
+  filter: drop-shadow(0 0 3px white);
+}
+
+
+img {
+  width: 400px;
+  margin-top: 70px;
+}
+
+
+p {
+  width: 80px;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 8px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.img {
+  animation: rotate 2s infinite;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.center {
+  width: 100%;
+  text-align: center;
+}
